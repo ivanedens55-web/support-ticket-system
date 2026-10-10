@@ -6,8 +6,8 @@ A helpdesk where customers open support tickets and staff manage them. Customers
 
 The point of the project is **role-based access control enforced on the server**: one backend serves two kinds of users with different permissions, and every rule is checked by the API and the database, not by the UI.
 
-**Live demo:** _add the Vercel link after deploying_
-**API health check:** _add the Render link + `/health` after deploying_
+**Live demo:** https://support-ticket-system-sigma-two.vercel.app
+**API health check:** https://support-ticket-api-p047.onrender.com/health
 
 > The backend runs on Render's free tier, which sleeps after 15 minutes without traffic. The first request after that can take up to a minute.
 
